@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pr3.css">
+    <link rel="stylesheet" href="encuesta.css">
+    <title>Pr3_m04Play</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logo" src="src/m4play-low-resolution-logo-black-on-transparent-background.png" alt="Logo">
+            <h1>EL MEJOR PORTAL INFORMATIVO DE VIDEOJUEGOS</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">MO4PLAY</a></li>
+            <li><a href="LlistaVideojocs.html">VIDEOJUEGOS</a></li>
+            <li><a href="noticies.html">NOTÍCIAS</a></li>
+            <li><a href="ranking.html">RANKING</a></li>
+            <li><a href="encuesta.html">ENCUESTA</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="formulari">
+            <h2>Regístrate en nuestra web</h2>
+            <form action="/action_page.php" method="get">
+                <div>
+                    <label for="nombre">Nombre y apellidos</label>
+                    <input type="text" id="titol" name="titol"><br>
+                </div>
+
+                <div>
+                    <label for="correo">Dirección de correo:</label>
+                    <input type="text" id="director" name="director"><br>
+                </div>
+
+                <div>
+                    <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="dataEstreno" name="dataEstreno"><br>
+                </div>
+
+                <div>
+                    <label for="pfp">Foto de perfil:</label>
+                    <input type="file"><br>
+                </div>
+
+                <div class="pref">
+                    <p>Preferencias de contenido:</p>
+                    <input type="radio" name="classificació">
+                    <label for="preferencias">Notícias</label><br>
+                    <input type="radio" name="classificació">
+                    <label for="preferencias">Nuevos lancamientos</label><br>
+                    <input type="radio" name="classificació">
+                    <label for="preferencias">Trucos</label><br>
+                    <input type="radio" name="classificació">
+                    <label for="preferencias">Ranking</label><br>
+                </div>
+
+                <div class="priv">
+                    <p>Condiciones de pricacidad:</p>
+                    <input type="checkbox" name="versio">
+                    <label for="privacidad">He leído y acepto las condiciones de privacidad</label>
+                    <input type="checkbox" name="versio">
+                    <label for="privacidad">Quiero recibir publicidad</label>
+                </div>
+
+
+                <div>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="xarxes">
+            <a href=""><img class="footer-logos-rs" src="src/ig.png" alt="Instagram" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/fb.png" alt="Facebook" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/tw.png" alt="Twitter" /></a>
+            <a href=""><img class="footer-logos-rs" src="src/yt.png" alt="Youtube" /></a>
+        </div>
+        <address>Carrer d'Aiguablava 121·08033 Barcelona</address>
+        <copyright> copyright © 2021-2022</copyright>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.formulari{
+    background-color:rgb(229, 229, 252);
+    border-radius: 10px;
+}
+main  h2,
+main form,
+main div,
+.pref *,
+.priv *{
+    padding: 1rem;
+}
